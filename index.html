@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>TypeMaster</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -11,23 +11,14 @@
     <!-- Header -->
     <header class="header">
       <div class="container header-container">
-        <a class="site-logo" href="#">Site Logo</a>
-        <nav class="site-nav">
-          <ul class="nav-list">
-            <li class="sitenav-item">
-              <a href="" class="nav-link">Home</a>
-            </li>
-            <li class="sitenav-item">
-              <a href="" class="nav-link">Settings</a>
-            </li>
-            <li class="sitenav-item">
-              <a href="" class="nav-link">About</a>
-            </li>
-            <li class="sitenav-item">
-              <a href="" class="nav-link">Features</a>
-            </li>
-          </ul>
-        </nav>
+        <a class="site-logo" href="#">
+          <img
+            src="./images/site-logo.svg"
+            alt="site-logo"
+            class="site__logo-img"
+          />
+        </a>
+        <a class="nav__btn btn light-btn" href="#">Pre-order now</a>
       </div>
     </header>
     <!-- Header End -->
@@ -36,7 +27,22 @@
     <main>
       <section class="hero">
         <div class="hero-container container">
-          <div class="hero-wrapper"></div>
+          <div class="hero-wrapper">
+            <h1 class="hero__title">Typemaster Keyboard</h1>
+            <p class="hero__desc">
+              Improve your productivity and gaming without breaking the bank.
+              Upgrade to a high quality mechanical typing experience.
+            </p>
+
+            <a href="#" class="btn orange-btn">Pre-order now</a>
+            <a href="#" class="btn hero__left-btn">Release on 5/27</a>
+          </div>
+
+          <img
+            src="./images/hero-img.png"
+            alt="keyboard image"
+            class="hero__img"
+          />
         </div>
       </section>
     </main>

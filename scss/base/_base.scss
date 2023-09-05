@@ -47,3 +47,24 @@ a {
   text-transform: uppercase;
   border-radius: 8px;
 }
+
+.orange-btn {
+  color: $white-color;
+  background-color: $orange-color;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: $orange-light-color;
+  }
+}
+
+.light-btn {
+  color: $dark-green-color;
+  background-color: $sky-blue-color;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: $dark-green-color;
+    color: $white-color;
+  }
+}
