@@ -18,8 +18,32 @@ ol {
 
 html {
   font-size: 62.5%;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 5rem;
+  padding-right: 5px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 1.6rem 2.7rem;
+  font-weight: 700;
+  line-height: 1.62;
+  text-transform: uppercase;
+  border-radius: 8px;
 }

@@ -1,0 +1,31 @@
+body {
+  color: $dark-green-color;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: $dark-green-color;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.625;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.625;
+}
