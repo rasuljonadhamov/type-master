@@ -10,6 +10,17 @@
 }
 
 .site-logo {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
 }
 
 .site__logo-img {
