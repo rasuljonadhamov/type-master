@@ -4,6 +4,18 @@ main {
 
 .hero {
   margin-top: 3.3rem;
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: -52rem;
+}
+
+.hero-image-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .hero-container {

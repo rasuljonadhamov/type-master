@@ -1,0 +1,43 @@
+.cta {
+  margin-bottom: 12.8rem;
+}
+
+.cta__continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta__item {
+  width: 100%;
+  max-width: 255px;
+}
+
+.cta-img {
+  margin-bottom: 4.8rem;
+}
+
+.cta__title {
+  margin-bottom: 2.4rem;
+}
+
+.cta__desc {
+  color: $silver-color;
+}
+
+.container {
+}
+
+.footer__container {
+  text-align: center;
+  margin-bottom: 3.9rem;
+}
+
+.footer__desc {
+  color: $silver-color;
+  font-weight: 700;
+
+  span {
+    font-weight: 500;
+  }
+}
