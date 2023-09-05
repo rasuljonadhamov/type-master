@@ -40,3 +40,40 @@ main {
   width: 540px;
   height: 480px;
 }
+
+.wedo {
+  margin-top: 4rem;
+  margin-bottom: 16.8rem;
+}
+
+.wedo__container {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.wedo-img {
+  border-radius: 20px;
+  margin-right: auto;
+}
+
+.wedo-left-img {
+  margin-right: 3rem;
+  background-image: linear-gradient(
+    rgba(241, 103, 24, 0.7),
+    rgba(241, 103, 24, 0.5)
+  );
+}
+
+.wedo__wrapper {
+  width: 100%;
+  max-width: 255px;
+}
+
+.wedo__title {
+  margin-bottom: 2.7rem;
+}
+
+.wedo__desc {
+  color: $silver-color;
+}

@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 2px dotted $dark-green-color;
+  outline-offset: 3px;
+}
+
 img {
   object-fit: cover;
   display: flex;
