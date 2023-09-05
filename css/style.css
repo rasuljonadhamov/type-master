@@ -110,4 +110,42 @@ h3 {
 
 main {
   flex-grow: 1;
+}
+
+.hero {
+  margin-top: 3.3rem;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-wrapper {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero__title {
+  margin-bottom: 2.4rem;
+}
+
+.hero__desc {
+  margin-bottom: 4rem;
+}
+
+.hero__left-btn {
+  color: #7b8bad;
+  transition: all 0.3s ease-in;
+  margin-left: 2rem;
+}
+.hero__left-btn:hover {
+  background-color: #162542;
+}
+
+.hero__img {
+  border-radius: 20px;
+  width: 540px;
+  height: 480px;
 }/*# sourceMappingURL=style.css.map */
